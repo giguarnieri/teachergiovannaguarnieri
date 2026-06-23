@@ -1,6 +1,3 @@
-# teachergiovannaguarnieri
-Serverless Learning Management System (LMS) featuring a Student Dashboard and a Teacher CMS, built with JavaScript, HTML/CSS, and Google Apps Script.
-
 # 🚀 JavaScript Serverless LMS: Plataforma EdTech Full-Stack
 
 **Status:** Em desenvolvimento | **Área:** EdTech (Educação & Tecnologia)
