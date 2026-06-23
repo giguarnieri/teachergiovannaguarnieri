@@ -43,16 +43,43 @@ A infraestrutura foi dividida em dois grandes ecossistemas que se comunicam via 
 
 ---
 
-## 📺 Demonstração Prática (Pitch Deck)
+## 📸 Vitrine da Arquitetura e Telas do Sistema
 
-> ⚠️ **Nota aos Recrutadores:** Para garantir a segurança dos dados e a integridade do banco de dados real, o código-fonte completo do Back-end não está publicado neste repositório público. 
+### 1. Front-end: Student Experience (Ecossistema do Aluno)
 
-Para visualizar o sistema operando ponta a ponta, assista ao screencast de demonstração abaixo:
+A interface do aluno foi construída com foco em retenção, feedback instantâneo e design responsivo.
 
-[![Demonstração do Sistema](https://img.youtube.com/vi/SEU_LINK_DO_YOUTUBE_AQUI/0.jpg)](https://www.youtube.com/watch?v=SEU_LINK_DO_YOUTUBE_AQUI)
+**Dashboard Híbrido e Timeline Dinâmica:**
+*(Cruzamento em tempo real do histórico de aulas logadas com os níveis de proficiência do aluno).*
+![Student Dashboard](./imagens/student-dashboard-timeline.png)
 
-*(Clique na imagem acima para abrir o vídeo demonstrativo no YouTube)*
+**Apresentações Nativas e Layout Engine:**
+*(Leitura de banco de dados e conversão para visualização 16:9, eliminando a necessidade de envio de PDFs).*
+![Class Slides](./imagens/dynamic-slide-presentation.png)
 
+**Motor Interativo de Worksheets e Scoreboard Inteligente:**
+*(Renderização assíncrona (Factory Pattern) de inputs/dropdowns e sistema algorítmico de correção automática com injeção de feedback de incentivo).*
+![Worksheet Engine](./imagens/interactive-worksheet-engine.png)
+![Automated Grading](./imagens/automated-grading-feedback.png)
+
+---
+
+### 2. Back-end: Teacher CMS & Engenharia (Ecossistema Administrativo)
+
+O grande diferencial da plataforma é o seu gerenciador de conteúdo proprietário, provando o domínio sobre CRUDs complexos, integração de APIs e manipulação de estado.
+
+**Lesson Planner (Gestor de Relacionamentos):**
+*(Ferramenta que atrela materiais, worksheets e apresentações ao ID do aluno, alimentando a timeline do Front-end em tempo real).*
+![Lesson Planner CMS](./imagens/cms-lesson-planner.png)
+
+**Construtor de Apresentações (Master-Detail UI):**
+*(Interface integrada com TinyMCE e upload em Base64 para o Google Drive API, permitindo injeção de mídias direto no banco de dados).*
+![Slide Constructor](./imagens/cms-slide-constructor.png)
+
+**Machine Learning Loop (Validação via Regex):**
+*(Mesa de correção da professora com sistema de auditoria. Ao identificar uma resposta válida não mapeada, a professora adiciona uma ramificação (operador lógico `|`) alimentando a inteligência do validador estático).*
+![Teacher Grading Desk](./imagens/teacher-grading-desk.png)
+![Machine Learning Rule Addition](./imagens/machine-learning-loop.png)
 ---
 
 ## 🔐 Direitos Autorais e Licença
