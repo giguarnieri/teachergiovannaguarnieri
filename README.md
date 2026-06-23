@@ -67,16 +67,20 @@ O grande diferencial da plataforma é o seu gerenciador de conteúdo proprietár
 
 **Lesson Planner (Gestor de Relacionamentos):**
 *(Ferramenta que atrela materiais, worksheets e apresentações ao ID do aluno, alimentando a timeline do Front-end em tempo real).*
+
 ![Lesson Planner CMS](./imagens/cms-lesson-planner.png)
 
 **Construtor de Apresentações (Master-Detail UI):**
 *(Interface integrada com TinyMCE e upload em Base64 para o Google Drive API, permitindo injeção de mídias direto no banco de dados).*
+
 ![Slide Constructor](./imagens/cms-slide-constructor.png)
 
 **Machine Learning Loop (Validação via Regex):**
 *(Mesa de correção da professora com sistema de auditoria. Ao identificar uma resposta válida não mapeada, a professora adiciona uma ramificação (operador lógico `|`) alimentando a inteligência do validador estático).*
+
 ![Teacher Grading Desk](./imagens/teacher-grading-desk.png)
 ![Machine Learning Rule Addition](./imagens/machine-learning-loop.png)
+
 ---
 
 ## 🔐 Direitos Autorais e Licença
